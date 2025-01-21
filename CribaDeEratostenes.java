@@ -24,7 +24,7 @@ public class CribaDeEratostenes {
         }
 
         for (int indice = 2; indice * indice <= cantNumerosArr; indice++) {
-            if (numPrimos[indice]) {
+            if (numPrimos[indice] == true) {
                 for (int indice2 = indice * indice; indice2 <= cantNumerosArr; indice2 += indice) {
                     numPrimos[indice2] = false;
                 }

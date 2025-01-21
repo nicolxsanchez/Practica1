@@ -1,0 +1,51 @@
+Participantes:
+Jeverlin Ramos  ID: 10154300
+Nicol Sanchez   ID: 10151785
+
+---------------------------------------------------------------------------------------------------------
+* 20 elementos
+
+Tiempo 1: 1282744.2735885 segundos
+Tiempo 2: 1286744.285703 segundos
+Tiempo ejecución (Tiempo2-Tiempo1):  0.0121145 segundos
+
+* 40 elementos
+
+Tiempo 1: 1286969.0071017 segundos
+Tiempo 2: 1286969.0197103 segundos
+Tiempo ejecución (Tiempo2-Tiempo1): 0.0126086 segundos
+
+* 60 elementos 
+
+Tiempo 1: 1287420.5632355 segundos
+Tiempo 2: 1287420.5811898 segundos
+Tiempo ejecución (Tiempo2-Tiempo1): 0.0179543 segundos
+
+* 100 elementos
+
+Tiempo 1: 1287966.79 segundos
+Tiempo 2: 1287966.81 segundos
+Tiempo ejecución (Tiempo2-Tiempo1): 0.018362 segundos 
+
+----------------------------------------------------------------------------------------------------------
+* Corridas múltiples: Ejecución del programa con varios valores de N ( N = 10^4, 10^5, 10^6 )
+
+* 10^4 = 10000
+Tiempo 1: 1,287,866.67 segundos 
+Tiempo 2: 1,287,866.7 segundos
+Tiempo ejecución (Tiempo2-Tiempo1): 0.0032516
+
+* 10^5 = 100000
+Tiempo 1: 1287884.53 segundos
+Tiempo 2: 1287884.61 segundos
+Tiempo ejecución (Tiempo2-Tiempo1): 0.072426 segundos
+
+* 10^6 = 1000000
+Tiempo 1: 1287896.46 segundos
+Tiempo 2: 1287896.8 segundos
+Tiempo ejecución (Tiempo2-Tiempo1): 0.337082 segundos
+
+	
+Luego de realizado y analizado el algoritmo de la Criba de Eratóstenes, se pudo concluir que este tiene un tiempo de ejecución de O(N log log N), lo cual se pudo verificar con la grafica del tiempo de ejecución en función de N. Conforme se aumentó el valor de N, el tiempo de ejecución del algoritmo también fue aumentando, pero de forma gradual. De esta manera, se observa que este algoritmo es eficiente para la búsqueda de los números primos en un determinado rango de números, ya que el tiempo de ejecución es considerablemente reducido en comparación a otras soluciones.
+
+Además, el análisis de las cotas muestra que el tiempo de ejecución, en el peor caso, crece como  O(N log N), y en el mejor caso, crece al menos como Ω(N). Esto confirma que el comportamiento general del algoritmo es Θ(N log N).

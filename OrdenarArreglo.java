@@ -4,6 +4,7 @@ public class OrdenarArreglo {
 
     public static void main(String[] args) {
 
+        
         int tamArreglo = 0;
         Scanner sc = new Scanner(System.in);
         do {
